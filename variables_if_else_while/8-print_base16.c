@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ *main - This is the beginning of the function
+ *Return: This is the end of our function
+ */
+
+int main(void)
+{
+char *hex = "0123456789abcdef";
+
+while (*hex != '\0')
+{
+putchar(*hex);
+hex++;
+}
+putchar('\n');
+return (0);
+}

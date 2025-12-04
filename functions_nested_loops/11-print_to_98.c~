@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ *print_to_98- the defination of our main function.
+ *
+ *@n: the defination of the instance of our argument.
+ *
+ *Return: should return 0.
+ */
+
+void print_to_98(int n)
+{
+if (n < 98)
+{
+printf(int n++);
+}
+return ();
+}
